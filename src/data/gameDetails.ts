@@ -2,7 +2,6 @@ import rdr2Hero from '../assets/detail/rdr2-hero.webp'
 import rdr2Preview1 from '../assets/detail/rdr2-preview-1.webp'
 import rdr2Preview2 from '../assets/detail/rdr2-preview-2.webp'
 import rdr2Preview3 from '../assets/detail/rdr2-preview-3.webp'
-import rdr2Gameplay from '../assets/detail/rdr2-gameplay.mp4'
 
 export type SystemSpec = { label: string; value: string }
 export type GameMedia =
@@ -26,7 +25,6 @@ const rdr2: DetailContent = {
       poster: rdr2Preview1,
       posterHasPlayIcon: true, // Ikon play sudah ada di gambar poster dari Figma.
       alt: 'Pratinjau video Red Dead Redemption 2',
-      src: rdr2Gameplay,
     },
     { id: 'rdr2-image-1', kind: 'image', src: rdr2Preview2, alt: 'Arthur Morgan saat beraksi' },
     { id: 'rdr2-image-2', kind: 'image', src: rdr2Preview3, alt: 'Arthur Morgan menunggang kuda di sebuah permukiman' },
